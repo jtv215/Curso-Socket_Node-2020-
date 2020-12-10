@@ -1,0 +1,14 @@
+<p>lista-usuarios works!</p>
+
+
+    <ul class="list-group">
+        <li class="list-group-item" *ngFor="let usuario of usuariosActivosObs">
+            {{usuario.nombre}}
+            <span class="bagde badge-primary">
+                {{usuario.sala}}
+            </span>
+            <span class="bagde badge-info">
+                {{usuario.id}}
+            </span>
+        </li>
+    </ul>
